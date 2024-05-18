@@ -1,4 +1,4 @@
-package com.hakaton.bank_communicator.services;
+package com.hakaton.bank_communicator.communicator.services;
 
 import lombok.AllArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -12,7 +12,7 @@ public class CommunicatorScheduler {
 
     @Scheduled(initialDelay = 1000L, fixedDelay = 3000L)
     void run() {
-        communicatorService.getOperations();
+        communicatorService.handleOperations();
     }
 
 }
