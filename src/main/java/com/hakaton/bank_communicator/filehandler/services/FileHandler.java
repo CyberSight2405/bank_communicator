@@ -1,10 +1,11 @@
 package com.hakaton.bank_communicator.filehandler.services;
 
+import java.nio.file.Path;
 import java.util.List;
 
 public interface FileHandler {
 
-    List<String> searchFiles(String path);
-    String[][] readFile(String filename);
-    boolean deleteFile(String filename);
+    List<Path> searchFiles(String path);
+    String[][] readFile(Path path);
+    boolean deleteFile(Path path);
 }

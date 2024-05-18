@@ -22,4 +22,4 @@ spring:
         driver-class-name: org.postgresql.Driver
 
 communicator:
-    files-path: ${FILES_PATH:\files}}
+    files-path: ${FILES_PATH:files\}
