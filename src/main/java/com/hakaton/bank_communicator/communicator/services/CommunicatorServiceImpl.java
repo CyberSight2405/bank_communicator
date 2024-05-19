@@ -2,14 +2,13 @@ package com.hakaton.bank_communicator.communicator.services;
 
 import com.hakaton.bank_communicator.db.entity.Operation;
 import com.hakaton.bank_communicator.db.repositories.OperationRepository;
-import com.hakaton.bank_communicator.filehandler.services.DataMapper;
+import com.hakaton.bank_communicator.db.mapper.DataMapper;
 import com.hakaton.bank_communicator.filehandler.services.FileHandler;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 

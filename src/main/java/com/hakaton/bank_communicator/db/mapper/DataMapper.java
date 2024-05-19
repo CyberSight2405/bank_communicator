@@ -1,4 +1,4 @@
-package com.hakaton.bank_communicator.filehandler.services;
+package com.hakaton.bank_communicator.db.mapper;
 
 import com.hakaton.bank_communicator.db.entity.Operation;
 
